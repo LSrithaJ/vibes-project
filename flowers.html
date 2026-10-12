@@ -1,0 +1,53 @@
+<!-- 2. High-Quality Edit - New Page-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Why are flowers important?</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+         <header>
+        <h1 class="logo">🌷 Bloom & Blossom</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class = "about">
+        <h2> Why are flowers important?</h2>
+        <p> Flowers are special and important because they add color to nature and life and hey can help people express feelings without using words. They are also important for the environment and pollinators such as bees and butterflies
+        </p>
+    </section>
+<!-- 3. High-Quality Edit - Interactive Flower Fact button-->
+<section class ="contact">
+    <h2>Flower Fun Facts!</h2>
+    <p id ="flower-fact">
+        Click the button to learn a new fun fact about flowers! </p>
+    
+        <button class ="button" onclick="showFact()">
+            Show me a fact!
+        </button>
+</section>
+<script>
+    function showFact() {
+        let facts = [
+            "Sunflower can follow the sun as hey grow.",
+            "Some flowers open during the day and close at night.",
+            "Tulips originally grew in Central Asia",
+            "Some flower can attract pollinators with their scent"
+        ];
+
+        let nmber = Math.floor(Math.random()*facts.length);
+        document.getElementById("flower-fact").textContent = 
+        facts[nmber];
+    }
+</script>
+
+    <footer>
+        <p>Bloom & Blossom | Flower Guide</p>
+    </footer>
+    </body>
+</html>

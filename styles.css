@@ -188,3 +188,25 @@ footer {
         max-width: 350px;
     }
 }
+
+
+/* 1. High-Quality Edit - CSS animation */
+
+/*Button Hover effect */
+.button {
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+ background-color: #8f4c61;   
+}
+
+/* Flower card animation */
+.flower-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.flower-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
