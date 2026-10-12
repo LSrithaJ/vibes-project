@@ -8,8 +8,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fffdf9;
-    color: #444444;
+    background-color: #f0e5df; /* 1. small personal edit */
+    color: #444444;  
     line-height: 1.6;
 }
 
@@ -26,12 +26,13 @@ header {
 
 .logo {
     font-size: 23px;
-    color: #654653;
+    color: #46654d; /* 5. small personal edit */
 }
 
-nav a {
-    text-decoration: none;
-    color: #654653;
+
+nav a { /* 3. small personal edit */
+    text-decoration: underline;
+    color: #46654d; 
     margin-left: 15px;
     font-size: 15px;
 }
@@ -40,7 +41,7 @@ nav a {
 .hero {
     min-height: 420px;
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.2),
+        linear-gradient(rgba(0, 0, 0, 0.384),
                         rgba(0, 0, 0, 0.2)),
         url("https://images.unsplash.com/photo-1494972308805-463bc619d34e?w=1600");
     background-size: cover;
