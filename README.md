@@ -1,0 +1,3 @@
+# My Vibes project
+
+I made this website about flowers because I really like gardening and flowers. Through this workshop I learned how to use html, css, and JavaScript to make changes to a VibeCoded website to add a human element to it. The 5 small changes I've made include changing colors, images, text, decorations, and corner-rounding. The 3 high-quality changes I made include adding a new page, adding an interactive random flower fact generator button, and adding css animations. 
